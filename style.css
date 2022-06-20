@@ -1,0 +1,149 @@
+body{
+  margin: 0px 0px;
+}
+
+hr {
+  width: 100px;
+  border-top: 1px solid black;
+}
+
+#container {
+  transition: 2s;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-left: 5%;
+  position: fixed;
+  margin-top: 30px;
+}
+
+#container:hover {
+  height: 70px;
+  cursor: pointer;
+}
+#sidebar {
+  width: 200px;
+  overflow: hidden;
+  height: 0;
+  position: fixed;
+  transition: 2.5s;
+  transition-timing-function: ease;
+  background-color: gray;
+  background-image: linear-gradient(white, rgba(6, 103, 141, 0.562));
+}
+
+li {
+  margin: 40px 0;
+}
+
+a{
+  text-decoration: none;
+  font-size: 20px;
+  transition: 1s;
+  color: rgba(6, 103, 141, 0.979);
+}
+
+ul a:visited {
+  color: rgba(6, 103, 141, 0.979);
+}
+
+ul a:hover{
+  font-size: 26px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+ul img {
+  width: 10rem;
+  margin-left: -20px;
+  margin-top: 50px;
+  border-radius: 50%;
+}
+
+#cross {
+  color:  lightblue;
+  text-decoration: none;
+  float: right;
+  margin-right: 15px;
+  margin-top: 15px;
+  transition: 2s;
+}
+#cross:hover {
+  transform: rotate(180deg);
+  cursor: pointer;
+  width: 20px;
+  color: rgba(6, 103, 141, 0.979);
+}
+
+nav {
+  /* border: 1px solid; */
+  width: 100%;
+  height: 100px;
+}
+
+#h1 {
+  margin-left: 40%;
+  margin-top: 2%;
+  font-size: 3rem;
+  font-family: 'Lobster', cursive;
+  transition: 1.5s;
+  color: rgba(6, 103, 141, 0.979);
+  display: inline-block;
+}
+#h1:hover {
+  font-size: 3.2rem;
+  text-shadow: 10px 5px rgba(6, 103, 141, 0.315);
+  cursor: pointer;
+}
+
+.main-area {
+  height: 89vh;
+  background-image: url("cool-background.png");
+  display: flex;
+}
+
+#left{
+  flex: 1;
+}
+
+.comment {
+  font-size: 4rem;
+  width: 80%;
+  margin: 20% auto;
+  font-family: 'Dancing Script', cursive;
+  line-height: 5rem;
+  color: rgba(6, 103, 141, 0.979);
+  text-shadow: 8px 8px lightgray;
+  transition: 2s;
+}
+
+#right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  margin-top: 20%;
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(70, 65, 65);
+}
+#right h2 {
+  margin: 0 10%;
+  text-shadow: 8px 8px lightgray;
+}
+#right p {
+  margin: 5% 10%;
+  font-size: 1.5rem;
+  text-shadow: 5px 5px lightgray;
+}
+
+
+
